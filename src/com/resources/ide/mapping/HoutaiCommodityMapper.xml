@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="snc.server.ide.dao.HoutaiCommodityDao">
+    <insert id="insertCommodity" parameterType="snc.server.ide.pojo.HoutaiCommodity">
+        insert into commodity (c_sid,c_name,c_price,marketprice,c_sold,c_image,c_type,c_brand,c_spuid) values(#{c_sid},#{c_name},#{c_price},#{marketprice},#{c_sold}#{c_image},#{c_type},#{c_brand},#{c_spuid});
+        insert into commodity (c_sid,c_mod,c_size,c_details,c_stock)values (#{c_sid},#{c_mod},#{c_size},#{c_details},#{c_stock});
+</insert>
+</mapper>

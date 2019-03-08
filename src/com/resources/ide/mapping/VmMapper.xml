@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="snc.server.ide.dao.VmDao">
+	<!--<resultMap id="BaseResultMap" type="snc.server.ide.pojo.Class">-->
+		<!--<result column="cls_id" property="cls_id" />-->
+		<!--<result column="cls_pt" property="cls_pt" />-->
+		<!--<result column="cls_json" property="cls_json" />-->
+	<!--</resultMap>-->
+
+	<!--<parameterMap id="cls" type="snc.server.ide.pojo.Class"/>-->
+	<!--<sql id="Base_Column_List">-->
+		<!--cls_pt,  cls_id,cls_json-->
+	<!--</sql>-->
+
+
+	<!--获取个人所有学时数-->
+	<select id="getAccount" resultType="java.lang.String" parameterType="java.lang.String">
+		select
+	  	cm
+		from
+		where uuid = #{pid}
+	</select>
+	<update id="updateAccount" parameterType="snc.server.ide.pojo.User">
+        update userinfo set cmoney=#{cls_pt} where uuid=#{uuid}
+    </update>
+
+	<insert id="insertMessage" parameterType="snc.server.ide.pojo.Vm">
+        insert into vm (uuid,cpu,mem,disk,paydate) values(#{uid},#{cpu},#{mem},#{disk},#{paydate})
+    </insert>
+
+
+</mapper>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="snc.server.ide.dao.GiftDao">
+<!--<resultMap id="BaseResultMap" type="snc/server/ide/pojo/Gift.java">-->
+    <!--<result column="g_id" property="g_id" />-->
+    <!--<result column="g_name" property="g_name" />-->
+    <!--<result column="g_details" property="g_details" />-->
+    <!--<result column="g_image" property="g_image" />-->
+    <!--<result column="g_sold" property="g_sold" />-->
+    <!--<result column="g_stock" property="g_stock" />-->
+<!--</resultMap>-->
+
+<!--<parameterMap id="Gift" type="snc/server/ide/pojo/Gift.java"/>-->
+
+<!--<sql id="Base_Column_List">-->
+<!--g_id,  g_sold-->
+<!--</sql>-->
+
+        <update id="UpdateStock" parameterType="snc.server.ide.pojo.Gift">
+        update gift set g_stock=#{g_stock} where g_id=#{g_id}
+        </update>
+
+        <update id="Updatept" parameterType="snc.server.ide.pojo.User">
+        update userinfo set jmoney=#{pt} where uuid=#{uuid}
+    </update>
+</mapper>

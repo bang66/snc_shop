@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="snc.server.ide.dao.UinfoDao">
+
+
+	<!--查询个人信息-->
+	<select id="getAllMessage" resultType="snc.server.ide.pojo.A_User" parameterType="java.lang.String">
+		select name,bir,d_id,port,eml,ph,addr,cm,gm,hd from a_user where uid = #{uid}
+	</select>
+
+	<!--修改个人信息-->
+	<update id="changeMsg" parameterType="java.util.Map">
+        update a_user
+        set name=#{name},bir=#{bir},d_id=#{d_id},port=#{port},eml=#{eml},ph=#{ph},addr=#{addr},cm=#{cm},gm=#{gm},hd=#{hd}
+        where uid=#{uid}
+    </update>
+
+	<!--删除个人信息-->
+	<delete id="delUinfo" parameterType="java.lang.String">
+		delete from a_user where uid=#{uid}
+	</delete>
+
+	<!--查看已购云主机-->
+	<select id="getUinfoVm" parameterType="java.lang.String" resultType="snc.server.ide.pojo.Vm">
+		select vid,cpu,mem,disk,paydate
+		from vm
+		where uid =#{uid}
+	</select>
+
+</mapper>
