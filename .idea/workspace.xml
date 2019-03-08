@@ -55,8 +55,8 @@
       <file leaf-file-name="UinfoHandle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/UinfoHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2051">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="289">
+              <caret line="228" column="43" lean-forward="true" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -599,7 +599,7 @@
       <workItem from="1551354112919" duration="6372000" />
       <workItem from="1551689693971" duration="2620000" />
       <workItem from="1551763977633" duration="1544000" />
-      <workItem from="1552058399045" duration="929000" />
+      <workItem from="1552058399045" duration="1180000" />
     </task>
     <servers />
   </component>
@@ -624,13 +624,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52764000" />
+    <option name="totallyTimeSpent" value="53015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="15" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.32912722" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50053364" side_tool="true" visible="true" weight="0.32912722" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Mongo Explorer" order="0" />
@@ -646,10 +646,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.30599368" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" visible="true" weight="0.32912722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" visible="true" weight="0.32912722" />
       <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.19583778" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1012,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/snc/server/ide/service/handler/UinfoHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2051">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="289">
+          <caret line="228" column="43" lean-forward="true" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
